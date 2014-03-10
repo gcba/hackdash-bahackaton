@@ -1,0 +1,21 @@
+footer.site-footer
+      .container
+        .row-fluid.footer-gcba
+          .span3
+            a(href='http://buenosaires.gob.ar', target='_blank')
+              .logo-invertido
+          .span3.offset6.text-right
+            a(href='http://www.buenosaires.gob.ar/modernizacion', target='_blank')
+              h2.slogan Ministerio de Modernización
+              
+script(src=site_root + '/js/libs/jquery.min.js')
+script(src=site_root + '/js/libs/bootstrap.min.js')
+script(src=site_root + '/js/libs/plugins.js')
+script(src=site_root + '/js/app.js')
+script(src="https://login.persona.org/include.js", type="text/javascript")
+
+if typeof disqus_shortname != "undefined" 
+  script(src=site_root + '/js/disqus.js', disqus_shortname=disqus_shortname)
+if typeof live != "undefined" 
+  script(src=site_root + '/socket.io/socket.io.js')
+  script(src=site_root + '/js/live.js')
