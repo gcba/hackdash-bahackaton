@@ -1,5 +1,11 @@
+
 HackDash
 ========
+
+Ideas for a Hackaton: Old HackDash fork. 
+[Live site Hackathon 2013](http://bahackaton.herokuapp.com/)
+
+-----------
 
 Organize hackaton ideas into a dashboard
 
